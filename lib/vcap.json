@@ -1,0 +1,15 @@
+{
+    "application": {
+        "port": 3000
+    },
+    "services": {
+        "fortune-cookies-db": [{
+            "name": "fortune-cookies-db",
+            "credentials": {
+                "uri": "postgres://postgres:postgres@localhost/postgres",
+                "sslcert": null,
+                "sslrootcert": null
+            }
+        }]
+    }
+}

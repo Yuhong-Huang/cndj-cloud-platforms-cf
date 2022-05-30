@@ -1,0 +1,8 @@
+applications:
+- name: fortune-cookies
+  memory: 80MB
+  command: npm start
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  services:
+  - fortune-cookies-db
